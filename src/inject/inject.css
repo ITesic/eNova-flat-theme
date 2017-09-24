@@ -1,0 +1,24 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+body {
+	position: relative!important;
+	background: #0376c6!important;
+	font-size: 14px!important;
+}
+
+#pglLogin {
+	background: #0376c6!important;
+}
+
+#pglLogin .flexslider {
+	display: none;
+}
+
+#pglFooter, 
+#pgl12 {
+	font-size: 10px;
+	background: none!important;
+	color: #fff;
+}

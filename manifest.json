@@ -1,0 +1,39 @@
+{
+  "name": "eNova flat theme",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Theme for eNova - Nova Banka eBanking solution. Unofficial theme.",
+  "homepage_url": "http://google.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "permissions": [
+    "https://enova.novabanka.com:7002/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://enova.novabanka.com:7002/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://enova.novabanka.com:7002/*"
+      ],
+      "js": [
+        "js/jquery/jquery.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
