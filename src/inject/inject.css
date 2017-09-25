@@ -68,7 +68,7 @@ button {
   width: 100% !important; }
 
 #pgl2 {
-  padding: 5px 0 !important; }
+  padding: 50px 0 !important; }
 
 #f1 #pgl1 > :nth-child(1) > table {
   height: 180px !important;
@@ -78,12 +78,14 @@ button {
 #f2 #pgl1 > :nth-child(1) > table {
   height: 50px !important;
   background: none !important; }
+
 #f2 #pgl1 > :nth-child(1) #pgl9 {
   width: auto !important; }
   #f2 #pgl1 > :nth-child(1) #pgl9 > div:first-child {
     padding: 5px 0; }
   #f2 #pgl1 > :nth-child(1) #pgl9 > div:not(:first-child) {
     display: none !important; }
+
 #f2 #pgl1 > :nth-child(1) button {
   margin: 0 !important; }
 
@@ -150,5 +152,3 @@ button {
   #pgl3a #pa1 {
     width: 100% !important;
     margin: 0 !important; }
-
-/*# sourceMappingURL=inject.css.map */

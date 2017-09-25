@@ -1,0 +1,31 @@
+{
+  "name": "enova-flat-theme",
+  "version": "0.0.2",
+  "description": "Flat theme for eNova e-banking solution. Theme is activated with Google Chrome extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITesic/eNova-flat-theme.git"
+  },
+  "author": "Ilija <ilija.tesic@gmail.com> (http://itesic.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ITesic/eNova-flat-theme/issues"
+  },
+  "homepage": "https://github.com/ITesic/eNova-flat-theme#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp-chrome-manifest": "^0.0.13",
+    "gulp-clean": "^0.3.2",
+    "gulp-copy": "^1.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.0.0"
+  }
+}

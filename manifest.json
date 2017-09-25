@@ -1,8 +1,8 @@
 {
-  "name": "eNova flat theme",
-  "version": "0.0.1",
+  "name": "enova-flat-theme",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Theme for eNova - Nova Banka eBanking solution. Unofficial theme.",
+  "description": "Flat theme for eNova e-banking solution.",
   "homepage_url": "http://google.com",
   "icons": {
     "16": "icons/icon16.png",
@@ -31,7 +31,7 @@
         "https://enova.novabanka.com:7002/*"
       ],
       "js": [
-        "js/jquery/jquery.js",
+        "src/js/jquery/jquery.js",
         "src/inject/inject.js"
       ]
     }
