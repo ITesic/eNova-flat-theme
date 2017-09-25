@@ -1,0 +1,14 @@
+@import "colors";
+
+* {
+  box-sizing: border-box !important;
+}
+
+html {
+  font-size: 14px !important;
+}
+
+body {
+  position: relative !important;
+  background: $color-primary !important;
+}

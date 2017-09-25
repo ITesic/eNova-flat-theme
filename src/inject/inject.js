@@ -1,26 +1,24 @@
-chrome.extension.sendMessage({}, function(response) {
-	var readyStateCheckInterval = setInterval(function() {
-	if (document.readyState === "complete") {
-		clearInterval(readyStateCheckInterval);
+chrome.extension.sendMessage({}, function (response) {
+    var readyStateCheckInterval = setInterval(function () {
+        if (document.readyState === "complete") {
+            clearInterval(readyStateCheckInterval);
 
-		// ----------------------------------------------------------
-		// This part of the script triggers when page is done loading
-		console.log("Hello. This message was sent from scripts/inject.js");
-		// ----------------------------------------------------------
+            $(document).ready(function () {
+                attachLayoutClasses();
+            });
 
-	}
-	}, 10);
+        }
+    }, 10);
 });
 
-$(document).ready(function(){
-	console.log('ready');
+function attachLayoutClasses() {
+    var $container = $('#pgl1');
+    $container.addClass('main-container');
+    $container.find('> div:nth-child(1)').addClass('main-header');
+    $container.find('> div:nth-child(2)').addClass('main-content');
+    $container.find('> div:nth-child(3)').addClass('main-footer');
+}
 
-	// $('#pglLogin .flexslider').remove();
-});
+function addThemeCopyright() {
 
-var elements = {};
-
-function selectElements() {
-	$loginPage = $('#pglLogin');
-	$footer = $('#pglFooter')
 }

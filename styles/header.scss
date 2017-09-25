@@ -1,0 +1,44 @@
+@import "selectors";
+@import "images";
+
+// Language selector
+#pgl2 {
+  padding: 5px 0 !important;
+}
+
+// Login page
+#f1 {
+  #{$main-header} {
+    > table {
+      height: 180px !important;
+      background: url($image-header-wide) center center no-repeat !important;
+      background-size: 120px !important;
+    }
+  }
+}
+
+// Main page
+#f2 {
+  #{$main-header} {
+    > table {
+      height: 50px !important;
+      background: none !important;
+    }
+
+    #pgl9 {
+      width: auto !important;
+
+      > div:first-child {
+        padding: 5px 0;
+      }
+
+      > div:not(:first-child) {
+        display: none !important;
+      }
+    }
+
+    button {
+      margin: 0 !important;
+    }
+  }
+}

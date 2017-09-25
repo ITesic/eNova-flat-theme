@@ -1,0 +1,95 @@
+@import "colors";
+
+//== Login
+
+#pglLogin {
+  margin-bottom: 5rem !important;
+  background: $color-primary !important;
+
+  .flexslider {
+    display: none;
+  }
+}
+
+//== login panel wrapper
+
+#login\:pgl2 {
+  width: 400px !important;
+}
+
+//== login panel container
+
+#login\:pb1 {
+  width: 400px !important;
+  padding: 1rem 2rem;
+  background: white !important;
+  border-radius: 3px !important;
+
+  // remove styling bg images
+  .x1ly {
+    border: none !important;
+    background-image: none !important;
+  }
+
+  table {
+    width: 100% !important;
+  }
+
+  td {
+    display: block !important;
+    background: none !important;
+    height: auto !important;
+    text-align: left !important;
+  }
+
+  .x1u {
+    margin-bottom: 10px !important;
+
+    td {
+
+    }
+
+
+    .xu {
+      //clear: both;
+      padding: 0 !important;
+      width: 100% !important;
+
+      // Required star
+      .xf {
+
+      }
+      label {
+        float: left !important;
+        margin-right: 5px !important;
+      }
+    }
+
+    .xu:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    // Input field wrapper
+    .xrj {
+      //clear: both !important;
+      padding: 0 !important;
+    }
+  }
+
+
+
+  h1 {
+    margin: .3rem 0 .5rem !important;
+    font-weight: normal !important;
+    font-size: 1.5rem !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+  }
+
+  .x51 {
+    margin: 0 !important;
+    text-align: center !important;
+  }
+}

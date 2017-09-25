@@ -1,0 +1,49 @@
+@import "colors";
+
+label {
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+}
+
+input,
+textarea,
+select {
+  height: 30px !important;
+  width: 100% !important;
+  padding: .3rem .5rem !important;
+  margin: 0 0 .5rem !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  border-radius: 3px !important;
+  border: 1px solid $color-grey !important;
+  box-shadow: none !important;
+  background-image: none !important;
+
+  &:active,
+  &:focus {
+    outline: none !important;
+    border-color: $color-primary !important;
+  }
+}
+
+button {
+  height: 30px !important;
+  padding: .2rem 1rem !important;
+  margin-bottom: .5rem !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  background: $color-primary !important;
+  color: $color-white !important;
+  border: 1px solid transparent !important;
+
+  &:hover {
+    background: $color-primary-darker !important;
+  }
+
+  &:active,
+  &:focus {
+    outline: none !important;
+  }
+}

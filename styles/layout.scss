@@ -1,0 +1,28 @@
+@import "selectors";
+
+// Main wrapper
+#{$main-container} {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  //max-width: 1140px !important;
+  min-height: 100vh !important;
+  margin: 0 auto !important;
+}
+
+// header
+#{$main-header} {
+  width: 100% !important;
+}
+
+// main content
+#{$main-content} {
+  width: 100% !important;
+}
+
+// footer
+#{$main-footer} {
+  width: 100% !important;
+}
